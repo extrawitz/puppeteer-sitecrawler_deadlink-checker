@@ -2,7 +2,7 @@
 
 ### Introduction
 
-This is piece javascript that checks for dead links on a website. It uses the Puppeteer library to interact with a website and evaluate its links. The program checks the links on the website and its sub-pages, and logs any dead links that it finds.
+This is piece javascript that checks for dead links on a website. It uses the [Puppeteer library](https://github.com/puppeteer/puppeteer) to interact with a website and evaluate its links. The program checks the links on the website and its sub-pages, and logs any dead links that it finds.
 
 ### Functionality
 
