@@ -25,7 +25,11 @@ To use it, you need to have the Puppeteer library installed, which you can do by
 ```bash
 npm install puppeteer
 ```
-To run the program, you need to specify the base URL that the program should start checking from. This is done by setting the value of the baseurl variable at the bottom of the code. By default, the value is set to ```http://www.localhost:8080```. You can change this value to any URL that you want to check for dead links. you can even check as much webpages as you want just call the main-function for every website you want to check.
+To run the program, you need to specify the base URL that the program should start checking from. This is done by setting the value of the baseurl variable at the bottom of the code. By default, the value is set to ```http://www.localhost:8080```. You can change this value to any URL that you want to check for dead links. 
+
+You can even check as much webpages as you want just call the main-function for every website you want to check.
+
+This script is also nice, if you want to manual preload a cache or CDN..
 
 Once you have set the base URL, you can run the program by typing the following command in your terminal:
 
