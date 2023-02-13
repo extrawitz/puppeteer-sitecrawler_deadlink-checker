@@ -22,16 +22,16 @@ The program is intended to be run in a Node.js environment. You must have node.j
 
 To use it, you need to have the Puppeteer library installed, which you can do by running the following command in your terminal:
 
-´´´javascript
+```bash
 npm install puppeteer
-´´´
+```
 To run the program, you need to specify the base URL that the program should start checking from. This is done by setting the value of the baseurl variable at the bottom of the code. By default, the value is set to 'http://www.localhost:8080'. You can change this value to any URL that you want to check for dead links.
 
 Once you have set the base URL, you can run the program by typing the following command in your terminal:
 
-´´´javascript
+```bash
 node deadlink-crawler.js
-´´´
+```
 
 ## Summary
 
